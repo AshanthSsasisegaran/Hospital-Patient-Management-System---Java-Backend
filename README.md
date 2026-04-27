@@ -50,9 +50,7 @@ Start the program:
 The system will load with 5 demo patients and 3 pre-scheduled
 appointments already in place.
 
-========================================================================
-NAVIGATING THE MENUS
-========================================================================
+## NAVIGATING THE MENUS
 
 All menus work the same way: - Type the NUMBER shown in [ ] brackets and press Enter. - Enter 0 to go BACK to the previous menu. - Enter q from any screen to jump straight back to the MAIN MENU.
 
@@ -67,9 +65,9 @@ All menus work the same way: - Type the NUMBER shown in [ ] brackets and press E
 [5] Admin Panel
 [0] Exit (then choose [1] to restart or [0] to fully quit)
 
-========================================================================
-MENU [1] - ADMIT PATIENT
-========================================================================
+
+## MENU [1] - ADMIT PATIENT
+
 
 [1] Register New Patient
 
@@ -120,9 +118,9 @@ Shows all patients ever admitted this session.
                                3 treated / 4 removed
     [0]  Back
 
-========================================================================
-MENU [2] - PRIORITY QUEUE
-========================================================================
+
+## MENU [2] - PRIORITY QUEUE
+
 
 Displays all patients currently waiting, ranked by severity (lowest
 number = highest priority). Patients with the same severity are
@@ -161,9 +159,9 @@ Displays the internal backing array of the binary min-heap.
 Index [0] is always the root (highest priority patient).
 Press Enter to return.
 
-========================================================================
-MENU [3] - APPOINTMENTS (Circular Queue, max 8 slots)
-========================================================================
+
+## MENU [3] - APPOINTMENTS (Circular Queue, max 8 slots)
+
 
 [1] Book Appointment
 
@@ -211,18 +209,18 @@ Lists all appointments booked for that date.
 
 [0] Back
 
-========================================================================
-MENU [4] - ACTIVITY LOG
-========================================================================
+
+## MENU [4] - ACTIVITY LOG
+
 
 Displays a timestamped list of all system events this session
 (admissions, treatments, removals, admin actions, etc.).
 
 Press Enter to return to the main menu.
 
-========================================================================
-MENU [5] - ADMIN PANEL
-========================================================================
+
+## MENU [5] - ADMIN PANEL
+
 
 PIN-PROTECTED. The default PIN is: 1234
 
@@ -282,9 +280,9 @@ Ends the admin session. The PIN will be required again next time.
 
 [0] Back
 
-========================================================================
-QUICK-REFERENCE: SPECIAL INPUT KEYS
-========================================================================
+
+## QUICK-REFERENCE: SPECIAL INPUT KEYS
+
 
 Key Effect
 
@@ -296,9 +294,9 @@ Enter Accept default value (where a default is offered)
 y Confirm a yes/no prompt
 n Cancel a yes/no prompt
 
-========================================================================
-EXAMPLE WALKTHROUGH - Admit and Treat a New Patient
-========================================================================
+
+## EXAMPLE WALKTHROUGH - Admit and Treat a New Patient
+
 
 1. From main menu, press 1 then Enter --> Admit Patient
 2. Press 1 then Enter --> Register New Patient
